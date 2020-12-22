@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/bGrounds">
+        <file>backgrounds/bber.jpg</file>
+        <file>backgrounds/erere.jpg</file>
+        <file>backgrounds/ff.jpg</file>
+        <file>backgrounds/h1.png</file>
+        <file>backgrounds/lodi.gif</file>
+        <file>backgrounds/logo.png</file>
+        <file>backgrounds/quiz_1.jpg</file>
+        <file>backgrounds/trophy.gif</file>
+        <file>backgrounds/gradient.jpg</file>
+        <file>backgrounds/trueFalse.jpg</file>
+        <file>backgrounds/grad.jpg</file>
+        <file>backgrounds/h11.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>icons/atom.png</file>
+        <file>icons/backback.jpg</file>
+        <file>icons/cancel.png</file>
+        <file>icons/check.png</file>
+        <file>icons/cogwheel.png</file>
+        <file>icons/cpu.png</file>
+        <file>icons/disc.png</file>
+        <file>icons/earth.png</file>
+        <file>icons/flag.png</file>
+        <file>icons/human.png</file>
+        <file>icons/leftarrow.png</file>
+        <file>icons/lion.png</file>
+        <file>icons/parchment.png</file>
+        <file>icons/pause_w .png</file>
+        <file>icons/play_b.png</file>
+        <file>icons/shuffle.png</file>
+        <file>icons/sport.png</file>
+        <file>icons/wrong.png</file>
+    </qresource>
+    <qresource prefix="/SoundEffects">
+        <file>SoundEffects/clicksound.wav</file>
+        <file>SoundEffects/wro.wav</file>
+        <file>SoundEffects/cor.wav</file>
+        <file>SoundEffects/congratulation.wav</file>
+        <file>SoundEffects/buzzer.wav</file>
+        <file>SoundEffects/applause3.wav</file>
+    </qresource>
+</RCC>

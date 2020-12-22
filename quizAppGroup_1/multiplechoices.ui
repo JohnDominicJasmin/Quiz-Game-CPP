@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Multiplechoices</class>
+ <widget class="QDialog" name="Multiplechoices">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="lblLive1">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>60</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-repeat:no-repeat;background-image: url(/home/micojasmin/quizAppGroup_1/backgrounds/h1.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_QuestionDisplay">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>170</y>
+     <width>701</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">;background-color: rgba(0,0,0, 120);
+color: rgb(211, 211, 211);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="plainText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_DisplayForTimer">
+   <property name="geometry">
+    <rect>
+     <x>1210</x>
+     <y>20</y>
+     <width>121</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans Serif</family>
+     <pointsize>35</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 25px;border-style: outset;padding: 10px;;background-color: rgba(255, 238, 53,100);
+color: rgb(238, 238, 238);</string>
+   </property>
+   <property name="text">
+    <string> 20</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblLive3">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>60</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-repeat:no-repeat;background-image: url(/home/micojasmin/quizAppGroup_1/backgrounds/h1.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblScore">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>70</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>SCORE: 0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblbackground">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1368</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(/home/micojasmin/quizAppGroup_1/backgrounds/bber.jpg);
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>60</y>
+     <width>626</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(/home/micojasmin/quizAppGroup_1/backgrounds/ggez.jpg);
+border: 1px solid #555;
+    border-radius: 30px;
+    border-style: outset;
+   
+    padding: 20px;
+</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_Leave">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>560</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #555;
+    border-radius: 15px;
+    border-style: outset;
+   
+    padding: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string>Leave</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_MainMenu_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>560</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #555;
+    border-radius: 15px;
+    border-style: outset;
+   
+    padding: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string>Retry</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_MainMenu">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>560</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #555;
+    border-radius: 15px;
+    border-style: outset;
+   
+    padding: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string>Main Menu</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_NumberOfCorrectAnswers">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>480</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Serif</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 0px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+   ;background-color: rgba(0,0,0, 0);
+    padding: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_NumberOfWrongAnswers">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>480</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Serif</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 0px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+   ;background-color: rgba(0,0,0, 0);
+    padding: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbloverallScore">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>10</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Serif</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 0px solid #222;
+    border-radius: 15px;
+    border-style: outset;
+   background-color: rgba(0,0,0,10);
+    padding: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_A">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>350</y>
+     <width>341</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border: 3px solid #555;
+
+
+
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #fff, stop: 1 #888
+        );
+    padding: 5px;
+;background-color: rgba(0,0,0, 120);
+</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+   <property name="shortcut">
+    <string>A</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_D">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>500</y>
+     <width>341</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border: 3px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #fff, stop: 1 #888
+        );
+    padding: 5px;
+;background-color: rgba(0,0,0, 120);
+</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+   <property name="shortcut">
+    <string>D</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblLive2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>60</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-repeat:no-repeat;background-image: url(/home/micojasmin/quizAppGroup_1/backgrounds/h1.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_B">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>350</y>
+     <width>341</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    border: 3px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+   
+    padding: 5px;
+;background-color: rgba(0,0,0, 120);</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+   <property name="shortcut">
+    <string>B</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_C">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>500</y>
+     <width>341</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border: 3px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #fff, stop: 1 #888
+        );
+    padding: 5px;
+;background-color: rgba(0,0,0, 120);
+</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+   <property name="shortcut">
+    <string>C</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

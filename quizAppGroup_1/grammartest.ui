@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GrammarTest</class>
+ <widget class="QDialog" name="GrammarTest">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_Background">
+   <property name="geometry">
+    <rect>
+     <x>-30</x>
+     <y>0</y>
+     <width>581</width>
+     <height>768</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/bGrounds/backgrounds/trueFalse.jpg);
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_A">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>300</y>
+     <width>471</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans Serif</family>
+     <pointsize>15</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+   QPushButton:hover{
+;background-color: rgba(0,0,0, 120);
+border: 2px solid #555;
+border-radius: 15px;
+border-style: inset;
+	font: 16pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+}
+
+QPushButton:!hover{ 
+border: 2px solid #555;
+border-radius: 20px;
+ border-style: outset;
+padding: 5px; 
+	font: 15pt &quot;Sans Serif&quot;;
+
+background-color: rgba(0,0,0, 200);
+  }
+</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_B">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>383</y>
+     <width>471</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans Serif</family>
+     <pointsize>15</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+   QPushButton:hover{
+;background-color: rgba(0,0,0, 120);
+border: 2px solid #555;
+border-radius: 15px;
+border-style: inset;
+	font: 16pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+}
+
+QPushButton:!hover{ 
+border: 2px solid #555;
+border-radius: 20px;
+ border-style: outset;
+padding: 5px; 
+	font: 15pt &quot;Sans Serif&quot;;
+background-color: rgba(0,0,0, 200);
+  }
+</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_C">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>466</y>
+     <width>471</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans Serif</family>
+     <pointsize>15</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+   QPushButton:hover{
+;background-color: rgba(0,0,0, 120);
+border: 2px solid #555;
+border-radius: 15px;
+border-style: inset;
+	font: 16pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+}
+
+QPushButton:!hover{ 
+border: 2px solid #555;
+border-radius: 20px;
+ border-style: outset;
+padding: 5px; 
+	font: 15pt &quot;Sans Serif&quot;;
+background-color: rgba(0,0,0, 200);
+  }
+</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_D">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>550</y>
+     <width>471</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans Serif</family>
+     <pointsize>15</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+   QPushButton:hover{
+;background-color: rgba(0,0,0, 120);
+border: 2px solid #555;
+border-radius: 15px;
+border-style: inset;
+	font: 16pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+}
+
+QPushButton:!hover{ 
+border: 2px solid #555;
+border-radius: 20px;
+ border-style: outset;
+padding: 5px; 
+	font: 15pt &quot;Sans Serif&quot;;
+background-color: rgba(0,0,0, 200);
+  }
+</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_Question">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>140</y>
+     <width>471</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans Serif</family>
+     <pointsize>15</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid #555;
+border-radius: 20px;
+ border-style: outset;
+padding: 5px; 
+	font: 15pt &quot;Sans Serif&quot;;
+
+background-color: rgba(0,0,0, 150);</string>
+   </property>
+   <property name="plainText">
+    <string/>
+   </property>
+   <property name="textInteractionFlags">
+    <set>Qt::NoTextInteraction</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblLive2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-repeat:no-repeat;
+
+background-image: url(:/bGrounds/backgrounds/h11.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblLive1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-repeat:no-repeat;
+background-image: url(:/bGrounds/backgrounds/h11.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblLive3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-repeat:no-repeat;
+background-image: url(:/bGrounds/backgrounds/h11.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_DisplayForTimer">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>10</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans Serif</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 45px;border-style: outset;padding: 10px;background-color: rgba(255, 255, 42,150);color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string> 20</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Continue">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>700</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans Serif</family>
+     <pointsize>15</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+   QPushButton:hover{
+
+border: 2px solid #555;
+border-radius: 15px;
+border-style: inset;
+	font: 16pt &quot;Sans Serif&quot;;
+	background-color: rgba(0, 85, 255,150);
+}
+
+QPushButton:!hover{ 
+border: 2px solid #555;
+border-radius: 20px;
+ border-style: outset;
+padding: 5px; 
+	font: 15pt &quot;Sans Serif&quot;;
+	background-color: rgba(0, 85, 255,50);
+  }
+</string>
+   </property>
+   <property name="text">
+    <string>CONTINUE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_ScoreBoard">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>90</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>SCORE: 0</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>110</y>
+     <width>435</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(22, 22, 22);</string>
+   </property>
+   <widget class="QLabel" name="trophy_gif">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>30</y>
+      <width>405</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/bGrounds/backgrounds/trophy.gif);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_MainMenu">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>400</y>
+      <width>195</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+ QPushButton:hover#pushButton_MainMenu{
+;background-color: rgba(0,0,0, 200);
+
+  border: 2px solid #555;
+    
+    border-style: inset;
+	font: 18pt &quot;Serif&quot;;
+	color: rgb(255, 255, 255);
+ }
+QPushButton:!hover#pushButton_MainMenu{
+ border: 1px solid #555;
+    border-radius: 5px;
+    border-style: outset;
+    padding: 5px;
+	color: rgb(255, 255, 255);
+	font: 15pt &quot;Serif&quot;;
+	;;background-color: rgba(0,0,0, 100);
+
+ }
+
+   
+</string>
+    </property>
+    <property name="text">
+     <string>Main Menu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Retry">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>400</y>
+      <width>195</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+ QPushButton:hover#pushButton_Retry{
+;background-color: rgba(0,0,0, 200);
+
+  border: 2px solid #555;
+    
+    border-style: inset;
+	font: 22pt &quot;Serif&quot;;
+	color: rgb(255, 255, 255);
+ }
+QPushButton:!hover#pushButton_Retry{
+ border: 1px solid #555;
+    border-radius: 5px;
+    border-style: outset;
+    padding: 5px;
+	color: rgb(255, 255, 255);
+	font: 15pt &quot;Serif&quot;;
+	;;background-color: rgba(0,0,0, 100);
+
+ }
+
+   
+</string>
+    </property>
+    <property name="text">
+     <string>Retry</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_WrongAnswers">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>320</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Serif</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Score">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Serif</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_CorrectAnswer">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>280</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Serif</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Greetings">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Serif</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="text">
+     <string>CONGRATULATIONS!</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>pushButton_MainMenu</zorder>
+   <zorder>pushButton_Retry</zorder>
+   <zorder>trophy_gif</zorder>
+   <zorder>label_WrongAnswers</zorder>
+   <zorder>label_Score</zorder>
+   <zorder>label_CorrectAnswer</zorder>
+   <zorder>label_Greetings</zorder>
+  </widget>
+  <widget class="QLabel" name="label_Darkeffects">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>551</width>
+     <height>768</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(8, 8, 8,160);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_Background</zorder>
+  <zorder>pushButton_A</zorder>
+  <zorder>lblLive1</zorder>
+  <zorder>lblLive2</zorder>
+  <zorder>lblLive3</zorder>
+  <zorder>pushButton_B</zorder>
+  <zorder>pushButton_C</zorder>
+  <zorder>pushButton_D</zorder>
+  <zorder>plainTextEdit_Question</zorder>
+  <zorder>label_DisplayForTimer</zorder>
+  <zorder>label_ScoreBoard</zorder>
+  <zorder>pushButton_Continue</zorder>
+  <zorder>label_Darkeffects</zorder>
+  <zorder>widget_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

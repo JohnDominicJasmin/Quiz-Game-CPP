@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TriviaType</class>
+ <widget class="QDialog" name="TriviaType">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>643</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="MultipleChoice">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>10</y>
+     <width>220</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+
+ QPushButton:hover#MultipleChoice{
+	background-color: rgba(0, 170, 255,250);
+ border: 3px solid #555;
+    border-radius: 15px;
+	border-color: rgb(31, 31, 31);
+    border-style: outset;
+	font: 20pt &quot;Serif&quot;;
+	color: rgb(255, 255, 255);
+ }
+QPushButton:!hover#MultipleChoice{
+
+    border-radius: 15px;
+    border-style: inset;
+    padding: 5px;
+	background-color: rgba(0, 170, 255,150);
+ }
+
+   
+</string>
+   </property>
+   <property name="text">
+    <string>TEST
+YOUR
+KNOWLEDGE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="trueOrFalse">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>221</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+
+ QPushButton:hover#trueOrFalse{
+	background-color: rgba(85, 0, 255,200);
+ border: 3px solid #555;
+    border-radius: 15px;
+    border-style: outset;
+	border-color: rgb(21, 21, 21);
+	font: 25pt &quot;Serif&quot;;
+	color: rgb(255, 255, 255);
+ }
+QPushButton:!hover#trueOrFalse{
+
+    border-radius: 15px;
+    border-style: inset;
+    padding: 5px;
+background-color: rgba(85, 0, 255,80);
+ }
+
+   
+</string>
+   </property>
+   <property name="text">
+    <string>TRUE
+OR
+FALSE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>6</y>
+     <width>16</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_background">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>481</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(39, 39, 39);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::WinPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>580</y>
+     <width>150</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>150</width>
+     <height>45</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+ QPushButton:hover#pushButton{
+	background-color: rgba(170, 0, 0,150);
+  border: 1px solid #555;
+	border-color: rgb(39, 39, 39);
+
+    border-style: inset;
+	font: 22pt &quot;Serif&quot;;
+	color: rgb(255, 255, 255);
+
+ }
+QPushButton:!hover#pushButton{
+ border: 1px solid #555;
+	border-color: rgb(80, 80, 80);
+    border-style: outset;
+    padding: 5px;
+	background-color: rgba(170, 0, 0,80);
+
+ }
+
+   
+</string>
+   </property>
+   <property name="text">
+    <string>CLOSE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FillInTheBlanks">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>221</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+
+ QPushButton:hover{
+	background-color: rgba(35, 255, 200,200);
+ border: 3px solid #555;
+    border-radius: 15px;
+    border-style: outset;
+	border-color: rgb(21, 21, 21);
+	font: 25pt &quot;Serif&quot;;
+	color: rgb(255, 255, 255);
+ }
+QPushButton:!hover{
+
+    border-radius: 15px;
+    border-style: inset;
+    padding: 5px;
+	background-color: rgba(35, 255, 200,100);
+ }
+
+   
+</string>
+   </property>
+   <property name="text">
+    <string> FILL
+IN
+THE
+BLANKS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>900</y>
+     <width>150</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>150</width>
+     <height>45</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+ QPushButton:hover#pushButton{
+	background-color: rgba(170, 0, 0,150);
+  border: 1px solid #555;
+	border-color: rgb(39, 39, 39);
+
+    border-style: inset;
+	font: 22pt &quot;Serif&quot;;
+	color: rgb(255, 255, 255);
+
+ }
+QPushButton:!hover#pushButton{
+ border: 1px solid #555;
+	border-color: rgb(80, 80, 80);
+    border-style: outset;
+    padding: 5px;
+	background-color: rgba(170, 0, 0,80);
+
+ }
+
+   
+</string>
+   </property>
+   <property name="text">
+    <string>CLOSE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bonusQuiz">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>290</y>
+     <width>221</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>32</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+
+ QPushButton:hover{
+	background-color: rgba(234, 78, 0,240);
+ border: 3px solid #555;
+    border-radius: 15px;
+    border-style: outset;
+	border-color: rgb(21, 21, 21);
+	font: 27pt &quot;Serif&quot;;
+	color: rgb(255, 255, 255);
+ }
+QPushButton:!hover{
+
+    border-radius: 15px;
+    border-style: inset;
+    padding: 5px;
+	background-color: rgba(234, 78, 0,150);
+ }
+
+   
+</string>
+   </property>
+   <property name="text">
+    <string>Bonus
+Quiz</string>
+   </property>
+  </widget>
+  <zorder>label_background</zorder>
+  <zorder>label</zorder>
+  <zorder>MultipleChoice</zorder>
+  <zorder>trueOrFalse</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>FillInTheBlanks</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>bonusQuiz</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

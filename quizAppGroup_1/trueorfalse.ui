@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TrueOrFalse</class>
+ <widget class="QDialog" name="TrueOrFalse">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>546</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="lblBackground">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>601</width>
+     <height>768</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/bGrounds/backgrounds/trueFalse.jpg);
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_Questions">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>471</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans Serif</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  border-radius: 15px;
+background-color: rgba(35, 35, 35,140);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::WinPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="plainText">
+    <string>This is a text
+
+</string>
+   </property>
+   <property name="textInteractionFlags">
+    <set>Qt::NoTextInteraction</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_True">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>220</y>
+     <width>231</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>37</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover#pushButton_True{
+background-color: rgba(0, 85, 190,210);
+ border: 3px solid #555;
+	border-color: rgb(43, 43, 43);
+    border-radius: 15px;
+    border-style: outset;
+	font: 30pt &quot;Serif&quot;;
+	color: rgb(255, 255, 255);
+ }
+QPushButton:!hover#pushButton_True{
+
+    border-radius: 15px;
+    border-style: inset;
+border: 1px solid #555;
+    padding: 5px;
+	background-color: rgba(0, 48, 144,200);
+ }
+
+   
+</string>
+   </property>
+   <property name="text">
+    <string>TRUE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_False">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>220</y>
+     <width>231</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover#pushButton_False{
+	
+ border: 3px solid #555;
+	border-color: rgb(43, 43, 43);
+    border-radius: 15px;
+    border-style: outset;
+	font: 25pt &quot;Serif&quot;;
+	
+	background-color: rgba(207, 0, 0,220);
+ }
+QPushButton:!hover#pushButton_False{
+
+    border-radius: 15px;
+    border-style: inset;
+border: 1px solid #555;
+    padding: 5px;
+	background-color: rgba(132, 0, 0,200);
+ }
+
+   
+</string>
+   </property>
+   <property name="text">
+    <string>FALSE</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_Trivia">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>510</y>
+     <width>471</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans Serif</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  border-radius: 15px;
+background-color: rgba(35, 35, 35,140);</string>
+   </property>
+   <property name="plainText">
+    <string>Sample text
+</string>
+   </property>
+   <property name="textInteractionFlags">
+    <set>Qt::NoTextInteraction</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Continue">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>700</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>15</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+ QPushButton:hover#pushButton_Continue{
+;background-color: rgba(0,0,0, 200);
+
+  border: 2px solid #555;
+    
+    border-style: inset;
+	font: 17pt &quot;Serif&quot;;
+	color: rgb(255, 255, 255);
+ }
+QPushButton:!hover#pushButton_Continue{
+ border: 1px solid #555;
+    border-radius: 5px;
+    border-style: outset;
+    padding: 5px;
+	color: rgb(255, 255, 255);
+	font: 15pt &quot;Serif&quot;;
+	;;background-color: rgba(0,0,0, 150);
+
+ }
+
+   
+</string>
+   </property>
+   <property name="text">
+    <string>CONTINUE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Heart2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-repeat:no-repeat;
+background-image: url(:/bGrounds/backgrounds/h11.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="heart1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-repeat:no-repeat;
+background-image: url(:/bGrounds/backgrounds/h11.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Heart3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-repeat:no-repeat;
+background-image: url(:/bGrounds/backgrounds/h11.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>80</y>
+     <width>431</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(22, 22, 22);</string>
+   </property>
+   <widget class="QLabel" name="trophy_gif">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>401</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/bGrounds/backgrounds/trophy.gif);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_MainMenu">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>350</y>
+      <width>195</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+ QPushButton:hover#pushButton_MainMenu{
+;background-color: rgba(0,0,0, 200);
+
+  border: 2px solid #555;
+    
+    border-style: inset;
+	font: 18pt &quot;Serif&quot;;
+	color: rgb(255, 255, 255);
+ }
+QPushButton:!hover#pushButton_MainMenu{
+ border: 1px solid #555;
+    border-radius: 5px;
+    border-style: outset;
+    padding: 5px;
+	color: rgb(255, 255, 255);
+	font: 15pt &quot;Serif&quot;;
+	;;background-color: rgba(0,0,0, 100);
+
+ }
+
+   
+</string>
+    </property>
+    <property name="text">
+     <string>Main Menu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Retry">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>350</y>
+      <width>195</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+ QPushButton:hover{
+;background-color: rgba(0,0,0, 200);
+
+  border: 2px solid #555;
+    
+    border-style: inset;
+	font: 22pt &quot;Serif&quot;;
+	color: rgb(255, 255, 255);
+ }
+QPushButton:!hover{
+ border: 1px solid #555;
+    border-radius: 5px;
+    border-style: outset;
+    padding: 5px;
+	color: rgb(255, 255, 255);
+	font: 15pt &quot;Serif&quot;;
+	;;background-color: rgba(0,0,0, 100);
+
+ }
+
+   
+</string>
+    </property>
+    <property name="text">
+     <string>Retry</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_CorrectAnswer">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>290</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Serif</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_WrongAnswers">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>240</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Serif</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Score">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>30</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Serif</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="text">
+     <string>CONGRATULATIONS!</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>pushButton_MainMenu</zorder>
+   <zorder>pushButton_Retry</zorder>
+   <zorder>trophy_gif</zorder>
+   <zorder>label_CorrectAnswer</zorder>
+   <zorder>label_WrongAnswers</zorder>
+   <zorder>label_Score</zorder>
+  </widget>
+  <widget class="QLabel" name="labelResults">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>400</y>
+     <width>561</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(43, 43, 43,80);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIconCorrect">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>410</y>
+     <width>81</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIconWrong">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>410</y>
+     <width>81</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_darkeffects">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>561</width>
+     <height>791</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(8, 8, 8,160);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>lblBackground</zorder>
+  <zorder>plainTextEdit_Questions</zorder>
+  <zorder>pushButton_True</zorder>
+  <zorder>pushButton_False</zorder>
+  <zorder>pushButton_Continue</zorder>
+  <zorder>Heart2</zorder>
+  <zorder>heart1</zorder>
+  <zorder>Heart3</zorder>
+  <zorder>labelResults</zorder>
+  <zorder>labelIconCorrect</zorder>
+  <zorder>labelIconWrong</zorder>
+  <zorder>label_darkeffects</zorder>
+  <zorder>plainTextEdit_Trivia</zorder>
+  <zorder>widget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
